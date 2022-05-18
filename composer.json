@@ -1,0 +1,29 @@
+{
+  "name": "golding/stringstream",
+  "type": "library",
+  "license": "MIT",
+  "description": "Php Stringstream data structure.",
+  "keywords": [
+    "stringstream",
+    "stream"
+  ],
+  "authors": [
+    {
+      "name": "Viskov Sergey",
+      "homepage": "https://github.com/voksiv"
+    },
+    {
+      "name": "Marco Grob",
+      "homepage": "https://github.com/mwbgrob"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "golding/ascii-table": "1.* || v1.* || 2.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Golding\\stringstream": "src"
+    }
+  }
+}
